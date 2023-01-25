@@ -1,0 +1,275 @@
+.music{
+    background-color: black;
+    height: 550px;
+    width: 1250px;
+    position: absolute;
+}
+.navbar{
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 30px;
+    font-family: Roboto,Noto Naskh Arabic UI,Arial,sans-serif;
+    font-size: 20px;
+}
+.nav:hover{
+    color:white ;
+}
+.icon{
+    width: 50px;
+    position:absolute;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.head1{
+    margin-left: 100px;
+    margin-top: 30px;
+    color:white;
+    font-family: Roboto,Noto Naskh Arabic UI,Arial,sans-serif;
+    position: absolute;
+}
+.logo{
+    position: absolute;
+}
+.icon1{
+    width: 30px;
+    margin-left: 1100px;
+    margin-top: 25px;
+}
+.profile{
+    position: absolute;
+    border-radius: 100%;
+}
+.img1{
+    width: 35px;
+    height: 35px;
+    margin-top: 25px;
+}
+a{
+    padding: 20px;
+    color:gray;
+    text-decoration: none; 
+}
+.song{
+    width: 350px;
+    height:350px ;
+    position: absolute;  
+}
+.song:hover{
+    border-radius: 10%;
+}
+.pic1{
+    margin-left:200px ;
+    margin-top: 100px;
+    position: absolute;
+}
+.songinfo1{
+    color: white;
+    position: absolute;
+    margin-left:680px ;
+    margin-top:100px ;
+    font-size: x-large;
+}
+.songpara1{
+    color:gray;
+    position: absolute;
+    margin-left:680px ;
+    margin-top: 130px;
+    font-size: large;
+}
+.button {
+    border: none;
+    color: black;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-left:680px ;
+    margin-top: 170px;
+}
+.button4 {
+    border-radius: 12px;
+}
+.line{
+    color: gray;
+    width: 500px;
+    margin-left:680px ;
+}
+.song1{
+    width: 50px;
+    height:50px ;
+    position: absolute;
+    border-radius: 5px;
+}
+.pic3{
+    margin-left:690px ;
+    margin-top: 10px;
+}
+.songinfo3{
+    color: white;
+    position: absolute;
+    margin-left:750px ;
+    margin-top: 10px;
+}
+.songpara3{
+    color: gray;
+    position: absolute;
+    margin-left:750px ;
+    margin-top: 30px;
+}
+.pic5{
+    margin-left:690px ;
+    margin-top: 80px;
+}
+.songinfo5{
+    color: white;
+    position: absolute;
+    margin-left:750px ;
+    margin-top: 80px;
+}
+.songpara5{
+    color: gray;
+    position: absolute;
+    margin-left:750px ;
+    margin-top: 100px;
+}
+.pic7{
+    margin-left:690px ;
+    margin-top: 150px;
+}
+.songinfo7{
+    color: white;
+    position: absolute;
+    margin-left:750px ;
+    margin-top: 150px;
+}
+.songpara7{
+    color: gray;
+    position: absolute;
+    margin-left:750px ;
+    margin-top: 170px;
+}
+
+
+.footer{
+    background-color: rgb(29, 26, 26);
+    height: 80px;
+    margin-top: 265px;
+}
+.fa{
+    color: white;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+  }
+   
+  .playpause-track,
+  .prev-track,
+  .next-track {
+    padding: 25px;
+    opacity: 0.8;
+    
+   
+    /* Smoothly transition the opacity */
+    transition: opacity .2s;
+  }
+   
+  /* Change the opacity when mouse is hovered */
+  .playpause-track:hover,
+  .prev-track:hover,
+  .next-track:hover {
+    opacity: 1.0;
+  }
+   
+  /* Define the slider width so that it scales properly */
+  .slider_container {
+    color: gray;
+    /* width: 1500px; */
+    display: flex;
+    bottom: 0px;
+    right: 0px;
+    top: 0px;
+    left: 0px;
+    height: 0px;
+    margin-top: 470px;
+    position: absolute;
+  }
+   
+  /* Modify the appearance of the slider */
+  .seek_slider {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 5px;
+    background: red;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+   
+  }
+   
+  /* Modify the appearance of the slider thumb */
+  .seek_slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background: red;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+   
+  /* Change the opacity when mouse is hovered */
+  .seek_slider:hover {
+    opacity: 1.0;
+    width: 60%;
+  }
+   .slide{
+    width: 1500px !important;
+   }
+  .seek_slider {
+    width: 60%;
+
+  }
+     
+  .current-time,
+  .total-duration {
+    padding: 10px;
+  }
+   
+   
+  /* Change the mouse cursor to a pointer
+     when hovered over */
+  i.fa-play-circle,
+  i.fa-pause-circle,
+  i.fa-step-forward,
+  i.fa-volume-up,
+  i.fa-step-backward {
+    cursor: pointer;
+    
+  }
+  .volume{
+    margin-left: 1100px;
+    margin-top: 50px;
+    position: absolute;
+  }
+/* .repeat{
+    color: white;
+    width: 20px;
+    height: 20px;
+} 
+.shuffle{
+    color: white;
+    width: 20px;
+    height: 20px;
+}  */
+
+#icon{
+    width: 60px;
+    height: 60px;
+}

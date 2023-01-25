@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="songs.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/aa66d207a8.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+<div class="music">
+    <nav>  
+        <div> 
+          <img class="icon" src="icons8-youtube-music-48.png" alt="">
+          <h1 class="head1">Music</h1>
+        </div>     
+        <div class="navbar">
+          <a class="nav" href=" ">Home</a>
+          <a class="nav" href=" ">Explore</a>
+          <a class="nav" href=" ">Liblary</a>
+          <a class="nav" href=" ">Upgrade</a>
+          <a href=" " class="nav"><i class="fa fa-search"></i></a>
+          <a class="nav" href=" ">Search</a>
+        </div>
+      <div class="logo">
+        <a href=""><img class="icon1" src="icons8-multiple-devices-50.png" alt=""></a>
+        <img class="profile img1" src="profile.jpg" alt="">
+      </div>    
+    </nav>  
+    <img class="song pic1"src="Screenshot 2022-12-30 19.59.11.png" alt="">
+    <h4 class="songinfo1">Mere Hamsafar</h4>
+    <p class="songpara1">Yashal Shahid . Mere Hamsafar</p>
+    <button class="button button4">UP NEXT</button>
+    <hr class="line">
+ <div class="songlist">  
+    <img class="song1 pic3" src="Screenshot 2022-12-28 19.50.53.png" alt="">
+    <h4 class="songinfo3">Lambiyaan Judaiyaan (Slowed And Reverbed) </h4>
+    <p class="songpara3">The KYO 2022 . Lmbiyaan Judaiyaan (Slowed And Reverbed)</p>
+    <img class="song1 pic5" src="Screenshot 2022-12-30 20.02.30.png" alt="">
+    <h4 class="songinfo5">August Diaries </h4>
+    <p class="songpara5">Dhariya . August Diaries </p>
+    <img class="song1 pic7" src="Screenshot 2022-12-30 20.03.45.png" alt="">
+    <h4 class="songinfo7">Manike </h4>
+    <p class="songpara7">Jubin Nutiyal . Manike . Thank GOD </p>
+</div> 
+<div class="slider_container">
+  <div class="current-time">00:00</div>
+  <input type="range" min="1" max="100"
+    value="0" class="seek_slider slide" onchange="seekTo()">
+  <div class="total-duration">00:00</div>
+</div>
+
+<footer class="footer">
+  
+
+<div class="buttons">
+  <div class="prev-track" onclick="prevTrack()">
+    <i class="fa fa-step-backward fa-2x"></i>
+  </div>
+  <!-- <div class="playpause-track" onclick="playpauseTrack()">
+    <i class="fa fa-play-circle fa-3x"></i>
+  </div> -->
+  <img src="play.png" alt="" id="icon">
+  <div class="next-track" onclick="nextTrack()">
+    <i class="fa fa-step-forward fa-2x"></i>
+  </div>
+</div>
+
+<audio id="mySong">
+  <source src="songs/Mere-Humsafar-Title(PaglaSongs).mp3">
+</audio>
+
+<script>
+var mySong =document.getElementById("mySong");
+var icon =document.getElementById("icon");
+
+icon.onclick=function(){
+  if(mySong. paused){
+      mySong.play();
+      icon.src="pause.png";
+  }
+  else{
+      mySong.pause();
+      icon.src="play.png";
+  }
+ 
+ 
+}
+
+</script>
+
+
+  <i class="fa fa-volume-up volume"></i>
+  <i class="fa-thin fa-arrows-repeat"></i>
+  <i class="fa-thin fa-shuffle shuffle"></i>
+</footer> 
+</div>
+<!-- <script src="index.js"></script> -->
+
+</body>
+</html>

@@ -1,0 +1,388 @@
+/* general */
+h4{
+    margin: 0;
+}
+h1{
+    margin: 0;
+}
+/* background */
+.body{
+    background:linear-gradient(180deg, var(--primary), var(--secondary)) !important;
+    background:linear-gradient(top, #8E0E00 100%, #1F1C18 0%) !important;
+    height: 300px;
+}
+:root{
+    --primary:#8E0E00 !important;
+    --secondary:black !important;
+}
+/* youtubemusic icon */
+.icon{
+    width: 50px;
+    position:absolute;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+/* music heading */
+.head1{
+    margin-left: 100px;
+    margin-top: 50px;
+    color:white;
+    font-family: Roboto,Noto Naskh Arabic UI,Arial,sans-serif;
+    position: absolute;
+}
+/* navbar */
+.navbar{
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 50px;
+    font-family: Roboto,Noto Naskh Arabic UI,Arial,sans-serif;
+    font-size: 20px;
+}
+.navbar:hover{
+    color:white ;
+}
+a{
+    padding: 20px;
+    color:gray;
+    text-decoration: none; 
+}
+.logo{
+    position: absolute;
+}
+.icon1{
+    width: 30px;
+    margin-left: 1100px;
+    margin-top: 40px;
+}
+.img1{
+    width: 35px;
+    height: 35px;
+    margin-top: 45px;
+}
+/* mylogo */
+h3:hover{
+    color: #fff;
+}
+.profile{
+    position: absolute;
+    border-radius: 100%;
+}
+.img2{
+    width: 60px;
+    height: 60px;
+}
+.maincontent{
+    position: absolute;
+    color: white;
+    margin-left:100px ;
+    margin-top: 150px;
+    font-family: Roboto,Noto Naskh Arabic UI,Arial,sans-serif;
+}
+.name{
+    margin-left: 70px;
+}
+.name1:hover{
+    text-decoration: underline;
+}
+.name1{
+    color: gray;
+    margin-left: 70px;
+    font-size: x-large;
+    margin-top: 10px;
+}
+.name2{
+    margin-top: 20px;
+    position: absolute;
+    font-size: x-large;
+}
+.button1{
+    margin-left: 990px;
+    position: absolute;
+}
+.button2{
+    margin-left: 1050px;
+}
+/* music row1 colm1 */
+.music{
+    background-color: black;
+    height: 800px;
+    width: 1250px;
+    position: absolute;
+}
+.song{
+    width: 50px;
+    height:50px ;
+    position: absolute;
+    border-radius: 5px;
+}
+.pic1{
+    margin-left:100px ;
+    margin-bottom: 30px;
+    position: absolute;
+}
+.songinfo1{
+    color: white;
+    position: absolute;
+    margin-left:170px ;
+}
+.songpara1{
+    color:gray;
+    position: absolute;
+    margin-left:170px ;
+    margin-top: 20px;
+}
+.pic2{
+    margin-left:650px ;
+    margin-bottom: 30px;
+}
+.songinfo2{
+    color: white;
+    position: absolute;
+    margin-left:720px ;
+}
+.songpara2{
+    color: gray;
+    position: absolute;
+    margin-left:720px ;
+    margin-top: 20px;
+}
+.pic3{
+    margin-left:30px ;
+    margin-top: 70px;
+}
+.songinfo3{
+    color: white;
+    position: absolute;
+    margin-left:100px ;
+    margin-top: 70px;
+}
+.songpara3{
+    color: gray;
+    position: absolute;
+    margin-left:100px ;
+    margin-top: 90px;
+}
+.pic4{
+    margin-left:580px ;
+    margin-top: 70px;
+}
+.songinfo4{
+    color: white;
+    position: absolute;
+    margin-left:650px ;
+    margin-top: 70px;
+}
+.songpara4{
+    color: gray;
+    position: absolute;
+    margin-left:650px ;
+    margin-top: 90px;
+}
+.pic5{
+    left: 120px;
+    margin-top: 140px;
+}
+.songinfo5{
+    color: white;
+    position: absolute;
+    margin-left:30px ;
+    margin-top: 140px;
+}
+.songpara5{
+    color: gray;
+    position: absolute;
+    margin-left:30px ;
+    margin-top: 160px;
+}
+.pic6{
+    margin-left:510px ;
+    margin-top: 140px;
+}
+.songinfo6{
+    color: white;
+    position: absolute;
+    margin-left:580px ;
+    margin-top: 140px;
+}
+.songpara6{
+    color: gray;
+    position: absolute;
+    margin-left:580px ;
+    margin-top: 160px;
+}
+.pic7{
+    left: 120px;
+    margin-top: 210px;
+}
+.songinfo7{
+    color: white;
+    position: absolute;
+    left:190px ;
+    margin-top: 210px;
+}
+.songpara7{
+    color: gray;
+    position: absolute;
+    left:190px ;
+    margin-top: 230px;
+}
+.pic8{
+    margin-left:440px ;
+    margin-top: 210px;
+}
+.songinfo8{
+    color: white;
+    position: absolute;
+    margin-left:510px ;
+    margin-top: 210px;
+}
+.songpara8{
+    color: gray;
+    position: absolute;
+    margin-left:510px ;
+    margin-top: 230px;
+}
+/* music ro2 */
+.slogan{
+    margin-left: 100px;
+    margin-top: 350px;
+    color: gray;
+}
+.playlist{
+    margin-top: 10px;
+    margin-left: 100px;
+    position: absolute;
+    font-size: x-large;
+    color: #fff;
+}
+.button3{
+    margin-left: 1100px;
+    position: absolute;
+}
+.button4{
+    margin-left: 1160px;
+    position: absolute;    
+}
+.song1{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+.songname1{
+    color: white;
+    position: absolute;
+    margin-top: 310px;
+    margin-left: 100px;
+}
+.para1{
+    color:gray;
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 100px;
+}
+.song2{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 320px;
+    border-radius: 10px;
+}
+.songname2{
+    color: white;
+    position: absolute;
+    margin-top: 310px;
+    margin-left: 320px;
+}
+.para2{
+    color:gray;
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 320px;
+}
+.song3{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 540px;
+    border-radius: 10px;
+}
+.songname3{
+    color: white;
+    position: absolute;
+    margin-top: 310px;
+    margin-left: 540px;
+}
+.para3{
+    color:gray;
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 540px;
+}
+.song4{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 760px;
+    border-radius: 10px;
+}
+.songname4{
+    color: white;
+    position: absolute;
+    margin-top: 310px;
+    margin-left: 760px;
+}
+.para4{
+    color:gray;
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 760px;
+}
+.song5{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 980px;
+    border-radius: 10px;
+}
+.songname5{
+    color: white;
+    position: absolute;
+    margin-top: 310px;
+    margin-left: 980px;
+}
+.para5{
+    color:gray;
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 980px;
+}
+/* button */
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  .round:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    color: white;
+  }
+  
+  .next {
+    color: white;
+  }
+  
+  .round {
+    border-radius: 50%;
+  }
